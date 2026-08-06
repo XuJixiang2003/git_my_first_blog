@@ -1,0 +1,22 @@
+/* 自定义鼠标光标样式 */
+
+/* 默认光标（普通状态） */
+body {
+  cursor: url('/cursors/elaina/Chiikawa Momonga Animated--pointer--SweezyCursors..cur') 0 0, auto;
+}
+
+/* 链接和可点击元素（悬停状态） */
+a,
+a *,
+button,
+button *,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+label,
+select,
+summary,
+[role="button"],
+[onclick] {
+  cursor: url('/cursors/elaina/Chiikawa Momonga Animated--pointer--SweezyCursors..cur') 0 0, pointer;
+}
